@@ -1,0 +1,54 @@
+itemGroup.TabSpawningFactory=SpawningFactory Mod
+
+tile.BlockLimeStone.name=Limestone
+
+item.ItemHammer.name=Hammer
+item.ItemLimestoneDust.name=Limestone Dust
+
+item.ItemBlankEgg.name=Blank Egg
+item.ItemPigEgg.name=Pig Egg
+item.ItemCowEgg.name=Cow Egg
+item.ItemHorseEgg.name=Horse Egg
+item.ItemChickenEgg.name=Chicken Egg
+item.ItemSquidEgg.name=Squid Egg
+item.ItemOcelotEgg.name=Ocelot Egg
+item.ItemVillagerEgg.name=Villager Egg
+item.ItemBatEgg.name=Bat Egg
+item.ItemSheepEgg.name=Sheep Egg
+item.ItemCreeperEgg.name=Creeper Egg
+item.ItemSkeletonEgg.name=Skeleton Egg
+item.ItemSpiderEgg.name=Spider Egg
+item.ItemZombieEgg.name=Zombie Egg
+item.ItemSlimeEgg.name=Slime Egg
+item.ItemEndermanEgg.name=Enderman Egg
+item.ItemCavespiderEgg.name=Cavespider Egg
+item.ItemSilverfishEgg.name=Silverfish Egg
+item.ItemWitchEgg.name=Witch Egg
+item.ItemWolfEgg.name=Wolf Egg
+item.ItemGhastEgg.name=Ghast Egg
+item.ItemZombiePigmanEgg.name=Zombie Pigman Egg
+item.ItemBlazeEgg.name=Blaze Egg
+item.ItemMagmacubeEgg.name=Magma Cube Egg
+item.ItemMooshroomEgg.name=Mooshroom Egg
+
+item.ItemPigDrop.name=Pig Drop
+item.ItemCowDrop.name=Cow Drop
+item.ItemHorseDrop.name=Horse Drop
+item.ItemChickenDrop.name=Chicken Drop
+item.ItemSquidDrop.name=Squid Drop
+item.ItemOcelotDrop.name=Ocelot Drop
+item.ItemVillagerDrop.name=Villager Drop
+item.ItemBatDrop.name=Bat Drop
+item.ItemSheepDrop.name=Sheep Drop
+item.ItemCreeperDrop.name=Creeper Drop
+item.ItemSkeletonDrop.name=Skeleton Drop
+item.ItemSpiderDrop.name=Spider Drop
+item.ItemZombieDrop.name=Zombie Drop
+item.ItemSlimeDrop.name=Slime Drop
+item.ItemEndermanDrop.name=Enderman Drop
+item.ItemCavespiderDrop.name=Cavespider Drop
+item.ItemSilverfishDrop.name=Silverfish Drop
+item.ItemWitchDrop.name=Witch Drop
+item.ItemWolfDrop.name=Wolf Drop
+item.ItemBlazeDrop.name=Blaze Drop
+item.ItemMagmacubeDrop.name=Magma Cube Egg

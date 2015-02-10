@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spawningfactory",
+  "name": "SpawningFactory Mod",
+  "description": "This mod gives you the opportunity to create spawneggs",
+  "version": "1.0.1",
+  "mcversion": "1.7.10",
+  "url": "http://minecraft.andreashiller.net",
+  "updateUrl": "http://minecraft.andreashiller.net",
+  "authorList": ["Andreas Hiller"],
+  "credits": "Created by Andreas Hiller from AndreasHiller.Net",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
