@@ -1,6 +1,7 @@
 package net.andreashiller.minecraft.spawningfactory.misc;
 
 import net.andreashiller.minecraft.spawningfactory.SpawningFactory;
+import net.andreashiller.minecraft.spawningfactory.handlers.ItemHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -13,7 +14,7 @@ public class TabSpawningFactory extends CreativeTabs {
 	
 	@Override
 	public Item getTabIconItem() {
-		return SpawningFactory.itemBlankEgg;
+		return ItemHandler.itemBlankEgg;
 	}
 
 }

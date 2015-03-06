@@ -1,10 +1,13 @@
 itemGroup.TabSpawningFactory=SpawningFactory Mod
 
 tile.BlockLimeStone.name=Kalkstein
+tile.BlockLimeStoneBrick.name=Kalkziegelstein
+tile.BlockLimeStoneBrickStairs.name=Kalkziegelstein Treppe
+tile.BlockLimeStoneBrickHalfSlab.name=Kalkziegelstein Stufe
 
 item.ItemHammer.name=Hammer
 item.ItemLimestoneDust.name=Kalksteinstaub
-
+item.ItemHardenedLimestoneBricks.name=gehärteter Kalkziegel
 item.ItemBlankEgg.name=Leeres Ei
 item.ItemPigEgg.name=Scheineei
 item.ItemCowEgg.name=Kuhei

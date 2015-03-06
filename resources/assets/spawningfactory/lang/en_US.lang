@@ -1,10 +1,13 @@
 itemGroup.TabSpawningFactory=SpawningFactory Mod
 
 tile.BlockLimeStone.name=Limestone
+tile.BlockLimeStoneBrick.name=Limestone Brick
+tile.BlockLimeStoneBrickStairs.name=Limestone Brick Stairs
+tile.BlockLimeStoneBrickHalfSlab.name=Limestone Brick Half Slab
 
 item.ItemHammer.name=Hammer
 item.ItemLimestoneDust.name=Limestone Dust
-
+item.ItemHardenedLimestoneBricks.name=Hardened Limestone Bricks
 item.ItemBlankEgg.name=Blank Egg
 item.ItemPigEgg.name=Pig Egg
 item.ItemCowEgg.name=Cow Egg

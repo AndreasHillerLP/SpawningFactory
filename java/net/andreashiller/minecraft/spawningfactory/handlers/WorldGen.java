@@ -38,7 +38,7 @@ public class WorldGen implements IWorldGenerator {
 			int chunkY = random.nextInt(64);
 			int chunkZ = z + random.nextInt(16);
 			
-			(new WorldGenMinable(SpawningFactory.blockLimeStone, 10)).generate(world, random, chunkX, chunkY, chunkZ);
+			(new WorldGenMinable(BlockHandler.blockLimeStone, 10)).generate(world, random, chunkX, chunkY, chunkZ);
 		}
 	}
 	

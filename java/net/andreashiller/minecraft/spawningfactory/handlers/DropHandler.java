@@ -40,79 +40,79 @@ public class DropHandler {
 		rand = new Random().nextInt(2);
 		
 		if(event.entityLiving instanceof EntityPig) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemPigDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemPigDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityCow) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemCowDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemCowDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityHorse) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemHorseDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemHorseDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityChicken) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemChickenDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemChickenDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntitySquid) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemSquidDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemSquidDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityOcelot) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemOcelotDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemOcelotDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityVillager) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemVillagerDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemVillagerDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityBat) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemBatDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemBatDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntitySheep) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemSheepDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemSheepDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityCreeper) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemCreeperDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemCreeperDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntitySkeleton) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemSkeletonDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemSkeletonDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntitySpider) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemSpiderDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemSpiderDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityZombie) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemZombieDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemZombieDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntitySlime) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemSlimeDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemSlimeDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityEnderman) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemEndermanDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemEndermanDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityCaveSpider) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemCavespiderDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemCavespiderDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntitySilverfish) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemSilverfishDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemSilverfishDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityWitch) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemWitchDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemWitchDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityWolf) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemWolfDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemWolfDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityGhast) {
@@ -120,11 +120,11 @@ public class DropHandler {
 		}
 		
 		if(event.entityLiving instanceof EntityBlaze) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemBlazeDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemBlazeDrop, rand), 2F);
 		}
 		
 		if(event.entityLiving instanceof EntityMagmaCube) {
-			event.entityLiving.entityDropItem(new ItemStack(SpawningFactory.itemMagmacubeDrop, rand), 2F);
+			event.entityLiving.entityDropItem(new ItemStack(ItemHandler.itemMagmacubeDrop, rand), 2F);
 		}
 	}
 	
