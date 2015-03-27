@@ -1,7 +1,7 @@
 [
 {
   "modid": "spawningfactory",
-  "name": "SpawningFactory Mod",
+  "name": "§6SpawningFactory Mod",
   "description": "This mod gives you the opportunity to create spawneggs directly into survival mode",
   "version": "1.0.4",
   "mcversion": "1.7.10",

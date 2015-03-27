@@ -5,10 +5,13 @@ import net.andreashiller.minecraft.spawningfactory.handlers.DropHandler;
 import net.andreashiller.minecraft.spawningfactory.handlers.ItemHandler;
 import net.andreashiller.minecraft.spawningfactory.handlers.RecipeHandler;
 import net.andreashiller.minecraft.spawningfactory.handlers.WorldGen;
+import net.andreashiller.minecraft.spawningfactory.misc.CBEventListener;
 import net.andreashiller.minecraft.spawningfactory.misc.TabSpawningFactory;
+import net.andreashiller.minecraft.spawningfactory.misc.Version;
 import net.andreashiller.minecraft.spawningfactory.proxies.ServerProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -50,6 +53,8 @@ public class SpawningFactory {
 	public void init(FMLInitializationEvent event) {
 		GameRegistry.registerWorldGenerator(WorldGen, 1);
 		MinecraftForge.EVENT_BUS.register(new DropHandler());
+		CBEventListener eventListener = new CBEventListener();
+		FMLCommonHandler.instance().bus().register(eventListener);
 		BlockHandler.registerNewBlocks();
 		ItemHandler.registerNewItems();
 		RecipeHandler.registerSmeltingRecipes();
@@ -58,7 +63,7 @@ public class SpawningFactory {
 	
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		
+		new Version();
 	}
 	
 }
